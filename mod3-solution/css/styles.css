@@ -1,0 +1,110 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #FFA07A;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #17202A;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* FOOF, LLC */
+  font-family: 'Lora', serif;
+  color: #F2F4F4;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.container{
+  margin-left: 15px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #F2F4F4;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #FFA07A;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+  background-color: #F2F4F4;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 10px;
+}
+
+.titulo p{
+  font-family: 'Lora', serif;
+  color: #F2F4F4;
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+
+ .textolargo{
+  margin: 10px;
+  color: #000000;
+  background-color: #F2F4F4;
+  
+ }
+ .textolargo p{
+  padding: 2%;
+ }
+ #grande{
+  margin-left: 0px;
+ }
+
+ #nav-list a span {
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  
+#nav-list a span {
+  display:none;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#nav-list a span {
+  display:none;
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ #nav-list a span {
+  display:none;
+} 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ #nav-list a span {
+  display:block;
+} 
+
+}
+
+

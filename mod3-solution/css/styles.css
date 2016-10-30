@@ -64,17 +64,20 @@ body {
   margin: 10px;
   color: #000000;
   background-color: #F2F4F4;
+
   
  }
+
  .textolargo p{
   padding: 2%;
+  text-align: center;
  }
  #grande{
   margin-left: 0px;
  }
 
  #nav-list a span {
-  text-align: center;
+  text-align: center; 
 }
 
 @media (min-width: 1200px) {
